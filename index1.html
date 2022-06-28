@@ -151,30 +151,156 @@
 
 
   <!-- jardim -->
-          <a-entity geometry="primitive: plane; width: 20; height: 8.27" scale="1 1 1" visible="true" position="0.49309 0.01 -6.98941" rotation="-90 0 0" material="src: #water-sand;shader: standard;repeat: 5 5"  shadow="cast:  false;  receive:  true" depth-material></a-entity>
-          <a-ocean id="#water"  scale="1 1 1" position="0.30818432569503784 0.14 -6.96529483795166" visible="true" shadow="cast: true"  ocean="width:  20;  depth:  8;  density:  100;  amplitude:  0.02;  amplitudeVariance:  0.01;  speedVariance:  1;   color:  #0658cc; opacity: 0.5;"></a-ocean>
+  <a-entity geometry="primitive: plane; width: 20; height: 8.27" scale="1 1 1" visible="true" position="0.49309 0.01 -6.98941" rotation="-90 0 0" material="src: #water-sand;shader: standard;repeat: 5 5"  shadow="cast:  false;  receive:  true" depth-material></a-entity>
+  <a-ocean id="#water"  scale="1 1 1" position="0.30818432569503784 0.14 -6.96529483795166" visible="true" shadow="cast: true"  ocean="width:  20;  depth:  8;  density:  100;  amplitude:  0.02;  amplitudeVariance:  0.01;  speedVariance:  1;   color:  #0658cc; opacity: 0.5;"></a-ocean>
 
-            <a-entity id="mesh1" gltf-model="#tree" scale="1 1 1" shadow="cast: true"  instanced-mesh></a-entity>
-                   <a-entity id="#tree0" rotation="0 180 0" scale="1 1 1" position="9.535101890563965 0.2676752507686615 -11.347841262817383" instanced-mesh-member="mesh:#mesh1"></a-entity>
-                   <a-entity id="#tree1" rotation="0 0 0" scale="1.3 1.3 1.3" position="10.164834022521973 0.26359114050865173 -8.16844367980957" instanced-mesh-member="mesh:#mesh1"></a-entity>
-                   <a-entity id="#tree2" rotation="0 0 0"  scale="1.3 1.3 1.3" position="-9.82878 0.06068 -12.52574" instanced-mesh-member="mesh:#mesh1"></a-entity>
-                   <a-entity id="#tree3" rotation="0 60 0" scale="1 1 1" position="-10.18805 0.16068 -3.02889" instanced-mesh-member="mesh:#mesh1"></a-entity>
+    <a-entity id="mesh1" gltf-model="#tree" scale="1 1 1" shadow="cast: true"  instanced-mesh></a-entity>
+           <a-entity id="#tree0" rotation="0 180 0" scale="1 1 1" position="9.535101890563965 0.2676752507686615 -11.347841262817383" instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree1" rotation="0 0 0" scale="1.3 1.3 1.3" position="10.164834022521973 0.26359114050865173 -8.16844367980957" instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree2" rotation="0 0 0"  scale="1.3 1.3 1.3" position="-9.82878 0.06068 -12.52574" instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree3" rotation="0 60 0" scale="1 1 1" position="-10.18805 0.16068 -3.02889" instanced-mesh-member="mesh:#mesh1"></a-entity>
 
+           <a-entity id="#tree4" rotation="0 60 0" scale="1 1 1"  position="6.0 -0.00 3.0" instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree5" rotation="0 90 0" scale="1.5 1.5 1.5" position="0.0 -0.00 4.0" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree6" rotation="0 120 0" scale="1 1 1" position="2.0 -0.00 5.0" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree7" rotation="0 150 0" scale="2 2 2" position="4.0 -0.00 6.0" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree8" rotation="0 180 0" scale="1.7 1.7 1.7" position="2.0 -0.00 6.5" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree9" rotation="0 210 0" scale="1 1 1" position="4.5 -0.00 5.2" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree10" rotation="0 240 0" scale="2 2 2" position="15 -0.00 -18" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree11" rotation="0 270 0" scale="1 1 1" position="14 -0.00 -16" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree12" rotation="0 300 0" scale="1.6 1.6 1.6" position="16 -0.00 -14" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree13" rotation="0 330 0" scale="1.5 1.5 1.5" position="13 -0.00 -12" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree14" rotation="0 30 0" scale="2 2 2" position="15 -0.00 -10" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree15" rotation="0 60 0" scale="2 2 2" position="14 -0.00 -8" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree16" rotation="0 90 0" scale="1.7 1.7 1.7" position="13 -0.00 -6" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree17" rotation="0 120 0" scale="1 1 1" position="15 -0.00 -4" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree18" rotation="0 170 0" scale="1.3 1.3 1.3" position="13 -0.00 -2" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree19" rotation="0 210 0" scale="2 2 2" position="16 -0.00 0" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree20" rotation="0 239 0" scale="1.3 1.3 1.3" position="15 -0.00 1" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree21" rotation="0 266 0" scale="1.6 1.6 1.6" position="10 -0.00 2" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree22" rotation="0 288 0" scale="1.5 1.5 1.5" position="9 -0.00 3" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree23" rotation="0 320 0" scale="1 1 1" position="8 -0.00 4" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree24" rotation="0 290 0" scale="1.7 1.7 1.7" position="2 -0.00 5" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree25" rotation="0 350 0" scale="1 1 1" position="1 -0.00 6" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree26" rotation="0 30 0" scale="1.7 1.7 1.7" position="5 -0.00 7" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree27" rotation="0 90 0" rotation="0 60 0" scale="1 1 1" position="7 -0.00 8" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree28" rotation="0 20 0" scale="1.5 1.5 1.5" position="4 -0.00 9" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree29" rotation="0 190 0" scale="1 1 1" position="2 -0.00 15.0" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree30" rotation="0 290 0" scale="1.3 1.3 1.3" position="-1 -0.00 3.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree31" rotation="0 10 0" scale="1.7 1.7 1.7" position="-4 -0.00 5.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree32" rotation="0 290 0" scale="1.3 1.3 1.3" position="-5.0 -0.00 2.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree33" rotation="0 300 0" scale="1 1 1" position="-6 -0.00 1.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree34" rotation="0 30 0" scale="1.5 1.5 1.5" position="-8.0 -0.00 5.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree35" rotation="0 90 0" scale="1.6 1.6 1.6" position="-12.0 -0.00 -18.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree36" rotation="0 120 0" scale="1.3 1.3 1.3" position="-14.0 -0.00 -15.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree37" rotation="0 150 0" scale="1.7 1.7 1.7" position="-13.65 -0.00 -30.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree38" rotation="0 190 0" scale="2 2 2" position="-14.65 -0.00 -27.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree39" rotation="0 220 0" scale="1 1 1" position="-15.65 -0.00 -24.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree40" rotation="0 250 0" scale="2 2 2" position="-13.65 -0.00 -21.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree41" rotation="0 280 0" scale="1 1 1" position="-14.65 -0.00 -19.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree42" rotation="0 310 0" scale="1.7 1.7 1.7" position="-16.65 -0.00 -16.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree43" rotation="0 350 0" scale="1 1 1" position="-13.65 -0.00 -13.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree44" rotation="0 10 0" scale="1.5 1.5 1.5" position="-14.65 -0.00 -10.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree45" rotation="0 90 0" scale="1.3 1.3 1.3" position="-14.65 -0.00 -8.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree46" rotation="0 190 0" scale="2 2 2" position="-15.65 -0.00 -6.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree47" rotation="0 100 0" scale="1 1 1" position="-14.65 -0.00 -4.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree48" rotation="0 130 0" scale="1.7 1.7 1.7" position="-13.65 -0.00 -2.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree49" rotation="0 90 0" scale="1 1 1" position="-14.65 -0.00 0.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree50" rotation="0 150 0" scale="1.3 1.3 1.3" position="-15.65 -0.00 1.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree51" rotation="0 290 0" scale="1 1 1" position="-13.65 -0.00 2.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree52" rotation="0 300 0" scale="1.7 1.7 1.7" position="-15.65 -0.00 3.535" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree53" rotation="0 90 0" scale="2 2 2" position="-13.65 -0.00 4.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree54" rotation="0 150 0" scale="1 1 1" position="-14.65 -0.00 5.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree55" rotation="0 30 0" scale="1.7 1.7 1.7" position="-13.65 -0.00 6.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree56" rotation="0 90 0" scale="1 1 1" position="-12.65 -0.00 7.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree57" rotation="0 120 0" scale="1.5 1.5 1.5" position="-12.65 -0.00 8.53" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
+           <a-entity id="#tree58" rotation="0 180 0" scale="1.3 1.3 1.3" position="-13.65 -0.00 9.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree59" rotation="0 210 0" scale="1 1 1" position="-14.65 -0.00 10.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree60" rotation="0 240 0" scale="1.7 1.7 1.7" position="-7.65 -0.00 6.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree61" rotation="0 270 0" scale="1 1 1" position="-6.65 -0.00 7.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree62" rotation="0 300 0" scale="2 2 2" position="-10.65 -0.00 10.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree63" rotation="0 330 0" scale="1 1 1" position="-3.65 -0.00 13.53" visible="true" shadow="cast: true" instanced-mesh-member="mesh:#mesh1" ></a-entity>
+           <a-entity id="#tree64" rotation="0 90 0" scale="1.5 1.5 1.5" position="-2 -0.00 15.0" visible="true" shadow="cast: true"  instanced-mesh-member="mesh:#mesh1"></a-entity>
 
-                   <a-entity id="mesh2" gltf-model="#rock" scale="1 1 1" shadow="cast: true"  instanced-mesh></a-entity>
-                  <a-entity id="#rock0" scale="1 1 1" position="8.0 0.30000001192092896 -5.0" instanced-mesh-member="mesh:#mesh2"></a-entity>
-                  <a-entity id="#rock1" scale="1 1 1" position="-10.01913 0.41959 -9.78636" rotation="13.1 52.3 170.0"  instanced-mesh-member="mesh:#mesh2"></a-entity>
+           <a-entity id="#tree65" rotation="0 80 0" scale="1.3 1.3 1.3" position="15 0 6.5" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree66" rotation="0 280 0" scale="2.7 2.7 2.7" position="20.47118 0 5.65327" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree67" rotation="0 180 0" scale="1.7 1.7 1.7" position="23.59757 0 0.76829" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree68" rotation="0 10 0" scale="1.8 1.8 1.8" position="28.41742 0 -3.7259" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree69" rotation="0 10 0" scale="0.7 0.7 0.7" position="27.17989 0 -11.02081" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree70" rotation="0 100 0" scale="1.7 1.7 1.7" position="25.94236 0 -22.54937" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree71" rotation="0 300 0" scale="1.1 1.1 1.1" position="21.64357 0 -29.84428" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree72" rotation="0 180 0" scale="1.0 1.0 1.0" position="14.67433 0 -35.51086" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree73" rotation="0 280 0" scale="1.7 1.7 1.7" position="9.26828 0 -32.71014" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree74" rotation="0 80 0" scale="2.1 2.1 2.1" position="8.22615 0 -25.5455" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree75" rotation="0 180 0" scale="2.4 2.4 2.4" position="10.24528 0 -22.61451" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree76" rotation="0 10 0" scale="1.7 1.7 1.7" position="19.23365 0 -36.1622" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree77" rotation="0 180 0" scale="2.5 2.5 2.5" position="-25.25227 0 -16.2966" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree78" rotation="0 90 0" scale="1.7 1.7 1.7" position="-22.97261 0 -10.49975" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree79" rotation="0 180 0" scale="1.7 1.7 1.7" position="-21.21402 0 -4.5075" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree80" rotation="0 10 0" scale="1.2 1.2 1.2" position="-26.099 0 -2.48837" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree81" rotation="0 180 0" scale="1.7 1.7 1.7" position="-23.10288 0 0.70315" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree82" rotation="0 280 0" scale="1.7 1.7 1.7" position="-21.86535 0 8.25859" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
+           <a-entity id="#tree83" rotation="0 180 0" scale="1.7 1.7 1.7" position="18.45205 0 6.49999" visible="" shadow="" instanced-mesh-member="mesh: #mesh1"></a-entity>
 
-                  <a-entity id="#grass.001" animation-mixer="timeScale:  0.8" gltf-model="#grass.001"  scale="2 2 2" position="-7.90047 -0.0472 -4.47596" visible="true" shadow="cast: false"  ></a-entity>
-                  <a-entity id="#grass.002" animation-mixer gltf-model="#grass.001" scale="1.5 1.5 1.5" position="8.89129 0.15663 -6.5577" visible="true" shadow="cast: false" ></a-entity>
+           <a-entity id="mesh2" gltf-model="#rock" scale="1 1 1" shadow="cast: true"  instanced-mesh></a-entity>
+          <a-entity id="#rock0" scale="1 1 1" position="8.0 0.30000001192092896 -5.0" instanced-mesh-member="mesh:#mesh2"></a-entity>
+          <a-entity id="#rock1" scale="1 1 1" position="-10.01913 0.41959 -9.78636" rotation="13.1 52.3 170.0"  instanced-mesh-member="mesh:#mesh2"></a-entity>
+          <a-entity id="#rock2" scale="0.7 0.7 0.7" position="-5.06843 0.64477 -2.21026" rotation="35.4 -92.9 -74.8"  instanced-mesh-member="mesh:#mesh2"></a-entity>
+          <a-entity id="#rock4" scale="1.5 1.5 1.5" position="-19.82174 0.4116 -1.21252" rotation="23.1 72.3 170" instanced-mesh-member="mesh: #mesh2"></a-entity>
+          <a-entity id="#rock5" scale="1.3 1.3 1.3" position="12.21688 0.75967 9.96219" rotation="13.1 52.3 10" instanced-mesh-member="mesh: #mesh2"></a-entity>
+          <a-entity id="#rock6" scale="0.5 0.5 0.5" position="-0.73304 -0.55276 11.78045" rotation="73.1 92.3 70" instanced-mesh-member="mesh: #mesh2"></a-entity>
 
-            <a-entity id="#grassshadow1" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="9.29624 0.67869 -2.07338" rotation="0 0 0"
-            material="src: #foliage; side: double; transparent: true; depthWrite:  false;shader: standard;"  shadow depth-material
-            ></a-entity>
+          <a-entity id="#grass.001" animation-mixer="timeScale:  0.8" gltf-model="#grass.001"  scale="2 2 2" position="-7.90047 -0.0472 -4.47596" visible="true" shadow="cast: false"  ></a-entity>
+          <a-entity id="#grass.002" animation-mixer gltf-model="#grass.001" scale="1.5 1.5 1.5" position="8.89129 0.15663 -6.5577" visible="true" shadow="cast: false" ></a-entity>
+          <a-entity id="#grass.003" animation-mixer="timeScale:  0.5" gltf-model="#grass.001" scale="2 1 2" position="9.79372 0.17999 -2.30126" visible="true" shadow="cast: false" ></a-entity>
+          <a-entity id="#grass.004" animation-mixer gltf-model="#grass.001" scale="2 2 2" position="5.28477 0.07888 -4.38908" rotation="0 63.95985162824892 0" visible="true" shadow="cast: false" ></a-entity>
+          <a-entity id="#grass.005" animation-mixer="timeScale:  0.9" gltf-model="#grass.001" scale="" position="-4.51758 0.12971 -2.04353" visible="true" shadow="cast: false" ></a-entity>
+          <a-entity id="#grass.006" animation-mixer gltf-model="#grass.001" scale="2 2 2" position="7.6757 0.13262 -8.51523" rotation="0 -99.62303662837189 0" visible="true" shadow="cast: false" ></a-entity>
+          <a-entity id="#grass.007" animation-mixer gltf-model="#grass.001"  scale="" position="8.85 0.03898 -1.76794" visible="true" shadow="cast: false" ></a-entity>
 
-            <a-entity id="#grassshadow2" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="10.30018 0.67869 -2.42379" rotation="0 -70.91097559877608 0"
-            material="src: #foliage; side: double; transparent: true; depthWrite:  false;shader: standard;"  shadow depth-material
-            ></a-entity>
+    <a-entity id="#grassshadow1" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="9.29624 0.67869 -2.07338" rotation="0 0 0"
+    material="src: #foliage; side: double; transparent: true; depthWrite:  false;shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow2" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="10.30018 0.67869 -2.42379" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true; depthWrite:  false;shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow3" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="5.21983 0.4827 -5.16791" rotation="0 0 0"
+    material="src: #foliage; side: double; transparent: true; shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow4" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="5.64244 0.50407 -4.73523" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true; shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow5" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="-8.02681 0.4827 -5.16791" rotation="0 0 0"
+    material="src: #foliage; side: double; transparent: true; shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow6" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="-7.78021 0.50407 -4.51163" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true;  shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow7" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="9.32637 0.4827 -6.55903" rotation="0 0 0"
+    material="src: #foliage; side: double; transparent: true;  depthWrite:  false; shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow8" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="9.32637 0.4827 -6.55903" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true;  depthWrite:  false;shader: standard;"  shadow depth-material
+    ></a-entity>
+
+  <a-entity id="#grassshadow9" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="8.07422 0.4827 -8.41847" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true;  shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity id="#grassshadow10" geometry="primitive: cylinder; openEnded: true; radius: 0.5" scale="1 1 1" visible="true" position="8.58232 0.4827 -8.64699" rotation="0 -70.91097559877608 0"
+    material="src: #foliage; side: double; transparent: true;  shader: standard;"  shadow depth-material
+    ></a-entity>
+
+    <a-entity  id="#grassshadow11" geometry="primitive: cylinder; openEnded: true; radius: 0.24; height: 0.57" scale="1 1 1" visible="true" position="-4.27878 0.37422 -2.08939" rotation="0 0 0"
+    material="src: #foliage; side: double; transparent: true; shader: standard;"  shadow depth-material
+    ></a-entity>
 
 
 
@@ -220,13 +346,13 @@
 
         <a-entity id="player"
             position="0 1 0"
-            movement-controls="constrainToNavMesh: true;speed: 0.20000000298023224;">
+            movement-controls="constrainToNavMesh: true;speed: 0.20000000298023224;" navigator="cameraRig: #player; cameraHead: #head;">
         <!-- camera -->
         <a-entity id="head" camera="active: true" position="0 1.6 0" look-controls="pointerLockEnabled: true; reverseMouseDrag: true" ></a-entity>
               <!-- Left Controller
               <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #15ACCF" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; button: trigger; curveShootingSpeed: 18; landingMaxAngle: 60" visible="true"></a-entity>
  -->
- <a-entity id="leftHand" oculus-touch-controls="hand: left" vive-controls="hand: left" hand-controls="hand: left; handModelStyle: lowPoly; color: #15ACCF" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; button: trigger; curveShootingSpeed: 18; landingMaxAngle: 60" visible="true"></a-entity>
+ <a-entity id="leftHand" oculus-touch-controls="hand: left" vive-controls="hand: left" hand-controls="hand: left; handModelStyle: lowPoly; color: #15ACCF" teleport-controls="cameraRig: #player; teleportOrigin: #head; button: trigger; curveShootingSpeed: 18; landingMaxAngle: 60" visible="true"></a-entity>
 
               <!-- Right Controller
               <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #15ACCF" laser-controls raycaster="showLine: true; far: 10; interval: 0; objects: .clickable, a-link;" line="color: #7cfc00; opacity: 0.5" visible="true"></a-entity>
