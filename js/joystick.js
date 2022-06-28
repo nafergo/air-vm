@@ -20,7 +20,7 @@ document.querySelector("body").appendChild(d)
 //p.setAttribute("style","text-align: center;margin-top:40px;font-size:12px Roboto; opacity:.5;");
 //p.innerHTML="hold and drag to move"
 //d.appendChild(p)
-} 
+}
 
 var moveData ="";
 
@@ -54,7 +54,7 @@ function createJoystick() {
   function updatePosition(data) {
     f = data.force;
     ang = data.angle.radian
-    cam = document.getElementById("camera");
+    cam = document.getElementById("head");
 
 
     x_vec = Math.cos(ang + 3.14/180*cam.getAttribute('rotation')['y']) ;
@@ -68,7 +68,7 @@ function createJoystick() {
   }
 
   AFRAME.registerComponent('joystick', {
-    init: function() { 
+    init: function() {
       createJoystick();
     },
     tick: function (time, timeDelta) {
